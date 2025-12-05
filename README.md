@@ -10,7 +10,7 @@ Vadim ran BLD code on `runpod.io` – a cloud computing platform that provides o
 2) Install `conda` and create a new environment via `conda create -n p2p python=3.9 -y`.
 3) Run `pip install -r p2p_requirements.txt`.
 4) Clone `PnPInversion` repo into `/workspace`.
-5) Copy `.bashrc` and `.condarc` files into `/workspace`.
+5) Copy `bashrc_persistent` and `.condarc` files into `/workspace`.
 6) Run the following set of commands on every startup:
 ```
 apt update && apt install sudo
