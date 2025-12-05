@@ -1,0 +1,12 @@
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+
+pkgs_dirs:
+  - /workspace/pkgs
+
+envs_dirs:
+  - /workspace/conda_envs
+
+auto_activate_base: false

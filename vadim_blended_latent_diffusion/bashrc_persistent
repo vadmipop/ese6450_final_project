@@ -1,0 +1,4 @@
+source /workspace/miniconda3/etc/profile.d/conda.sh
+export HF_HOME=/workspace/hfcache
+export HF_HUB_CACHE=/workspace/hfcache
+export TRANSFORMERS_CACHE=/workspace/hfcache
